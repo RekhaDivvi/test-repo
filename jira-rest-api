@@ -1,0 +1,5 @@
+curl --request GET \
+--url 'https://mypractice-jira.atlassian.net/rest/api/2/issue/TEST-4' \
+--user 'username:password' \
+--header 'Accept: application/json' \
+--header 'Content-Type: application/json' \
